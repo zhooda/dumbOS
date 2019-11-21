@@ -1,0 +1,2 @@
+# dumbOS
+*Basic* operating system
