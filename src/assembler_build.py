@@ -17,7 +17,7 @@ def main():
     for filename in ITEMS:
         print(filename)
         if filename.endswith('.asm'):
-            fileName = fileName.strip('.asm')
+            filename = filename.strip('.asm')
             
             # compile ASM file
             compile_ASM(filename)
