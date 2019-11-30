@@ -5,4 +5,4 @@
 ![](media/32bit-protected.png)
 
 #### Loading kernel into memory
-![](os-image.png)
+![](media/os-image.png)
