@@ -13,18 +13,16 @@ def boot_QEMU(fileName):
     os.system(commandOut)
 
 def main():
+    # find all assembler files
     for filename in ITEMS:
         print(filename)
         if filename.endswith('.asm'):
             fileName = fileName.strip('.asm')
             
-        #     # asmFile = input('File Name: ')
+            # compile ASM file
             compile_ASM(filename)
+            # boot ASM->bin file with qemu
             boot_QEMU(filename)
 
 if __name__ == "__main__":
-    # file = input('File Name: ')
-    # compile_ASM(file)
-    # os.system('qemu-system-x86_64')
-    # boot_QEMU(input('File Name: '))
     main()
