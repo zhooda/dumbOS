@@ -5,6 +5,7 @@ authors = ["Zeeshan Hooda <zhooda@protonmail.com>"]
 edition = "2018"
 
 [dependencies]
+bootloader = "0.9.12"
 
 [profile.dev]
 panic = "abort"
