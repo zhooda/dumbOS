@@ -1,0 +1,10 @@
+[package]
+name = "dumbOS"
+version = "0.1.0"
+authors = ["Zeeshan Hooda <zhooda@protonmail.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[unstable]
+build-std = ["core", "compiler_builtins"]
